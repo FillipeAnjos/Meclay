@@ -23,18 +23,14 @@
 				  	<img src="/imagens/logo/D.jpg" class="img-fluid" alt="Meclay - Serviços e Reparos">
 				  	<br/><br/>
 				  	<!--<h5>Meclay - Serviços e Reparos</h5>-->
-				  	<h5 class="textoContato"><b><img src="/imagens/icon/trowel.png" width="25px" class="img-fluid" alt="Meclay - Serviços e Reparos">&nbsp;Cleyton Dos Anjos Queiroz</b></h5>
+				  	<h5 class="textoContato"><b><img src="/imagens/icon/trowel.png" width="25px" class="img-fluid" alt="Meclay - Serviços e Reparos">&nbsp;Meclay - Serviços e Reparos</b></h5>
 					<p class="textoContato">
 						<b>	
 						<img src="/imagens/icon/email.png" width="19px" class="img-fluid" alt="Meclay - Serviços e Reparos">
-						&nbsp;meclay.contato@hotmail.com
+						&nbsp;contatos.meclay@hotmail.com
 						<br/>
 						<img src="/imagens/icon/phone.png" width="17px" class="img-fluid" alt="Meclay - Serviços e Reparos">
-						&nbsp;Tel: 021-85035965
-						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cel: 9 91444947 - 9 9999-9999
-						<br/>
-						Cnpj: 20.534.125/0001-09 
+						&nbsp;&nbsp;Cel: (21)9 99144-4947
 						<br/><br/>
 						<a href="">
 							<img src="/imagens/redeSociais/zap.png" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">

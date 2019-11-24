@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Chat -->
+    <script src="//code.jivosite.com/widget.js" data-jv-id="DBA23fXxgw" async></script>
+    
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -28,6 +31,14 @@
                 font-family: Century Gothic;
             */
 
+        }
+
+        /* Referente ao menu superior o principal */
+        #menuSuperior{
+            background: #FFFF;
+        }
+        #linkMenuSuperior{
+            font-size: 17px;
         }
 
         /* Não deixar que o usuário altere o textarea */
@@ -96,6 +107,14 @@
             color: white;
         }
 
+        .orcamentoRapido {
+            padding: 30px;
+            opacity : 0.9;
+            background: #174386;
+            border-radius: 8px;
+        }
+        
+
         /* CSS Referente ao rodapé do site */
         .rodape{
             width: 100%;
@@ -129,11 +148,11 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel" id="menuSuperior">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
-                    <img src="/imagens/logo/A.jpg" title="Home" width="35px" id="imgServicos">
+                    <img src="/imagens/logo/C.jpg" title="Home" width="60px" id="imgServicos">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -151,13 +170,13 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/nossaHistoria">Nossa História</a>
+                            <a class="nav-link" id="linkMenuSuperior" href="/menu/nossaHistoria">Nossa História</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/servicos">Serviços</a>
+                            <a class="nav-link" id="linkMenuSuperior" href="/menu/servicos">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/contato">Contato</a>
+                            <a class="nav-link" id="linkMenuSuperior" href="/menu/contato">Contato</a>
                         </li>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -165,10 +184,10 @@
 
                             <!-- NÃO LOGADO -->
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" id="linkMenuSuperior" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" id="linkMenuSuperior" href="{{ route('register') }}">{{ __('Register') }}</a>
                             </li>
 
                         @else
