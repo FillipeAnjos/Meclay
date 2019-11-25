@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<img src="/imagens/imagemContato.jpg" class="imgAbaixoMenu">
+<img src="{{ URL::asset('/imagens/imagemContato.jpg') }}" class="imgAbaixoMenu">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
@@ -12,7 +12,7 @@
                 	<center>
 		                <h2 style="color: #6E6E6E; font-weight: bold;">
 		                	Serviços
-		                	<img src="/imagens/logo/G.png" width="90px" align="right" class="img-fluid" alt="Meclay - Serviços e Reparos">
+		                	<img src="{{ URL::asset('/imagens/logo/G.png') }}" width="90px" align="right" class="img-fluid" alt="Meclay - Serviços e Reparos">
 		                </h2>
 		            </center>
                 </div>
@@ -22,7 +22,7 @@
                 		<div class="col-sm" id="colImg">
                 			<a href="#" id="linkImgServicos">
                 				<center><strong>Gesso</strong></center>
-	                			<img src="/imagens/servicos/gesso.png" class="img-fluid" id="imgServicos">
+	                			<img src="{{ URL::asset('/imagens/servicos/gesso.png') }}" class="img-fluid" id="imgServicos">
 	                			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                			<p>
 								  	<a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -64,7 +64,7 @@
                 		<div class="col-sm" id="colImg">
             				<center><strong>Pintura</strong></center>
                 			<a href="#" id="linkImgServicos">
-	                			<img src="/imagens/servicos/pintura.png" class="img-fluid" id="imgServicos">
+	                			<img src="{{ URL::asset('/imagens/servicos/pintura.png') }}" class="img-fluid" id="imgServicos">
 	                			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                			<p>
 								  	<a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
@@ -106,7 +106,7 @@
                 		<div class="col-sm" id="colImg">
                 			<a href="#" id="linkImgServicos">
                 				<center><strong>Construção</strong></center>
-	                			<img src="/imagens/servicos/construcao.png" class="img-fluid" id="imgServicos">
+	                			<img src="{{ URL::asset('/imagens/servicos/construcao.png') }}" class="img-fluid" id="imgServicos">
 	                			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                			<p>
 								  	<a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
@@ -155,7 +155,7 @@
                 		<div class="col-sm" id="colImg">
                 			<a href="#" id="linkImgServicos">
                 				<center><strong>Hidráulica</strong></center>
-	                			<img src="/imagens/servicos/hidraulica.png" class="img-fluid" id="imgServicos">
+	                			<img src="{{ URL::asset('/imagens/servicos/hidraulica.png') }}" class="img-fluid" id="imgServicos">
 	                			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                			<p>
 								  	<a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
@@ -197,7 +197,7 @@
                 		<div class="col-sm" id="colImg">
                 			<a href="#" id="linkImgServicos">
                 				<center><strong>Pisos e Revestimentos</strong></center>
-	                			<img src="/imagens/servicos/piso.png" class="img-fluid" id="imgServicos">
+	                			<img src="{{ URL::asset('/imagens/servicos/piso.png') }}" class="img-fluid" id="imgServicos">
 	                			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                			<p>
 								  	<a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
@@ -239,7 +239,7 @@
                 		<div class="col-sm" id="colImg">
                 			<a href="#" id="linkImgServicos">
                 				<center><strong>Elétrica</strong></center>
-	                			<img src="/imagens/servicos/eletrica.png" class="img-fluid" id="imgServicos">
+	                			<img src="{{ URL::asset('/imagens/servicos/eletrica.png') }}" class="img-fluid" id="imgServicos">
 	                			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                			<p>
 								  	<a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">

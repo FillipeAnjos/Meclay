@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<img src="/imagens/imagemContato.jpg" class="imgAbaixoMenu">
+<img src="{{ URL::asset('/imagens/imagemContato.jpg') }}" class="imgAbaixoMenu">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
@@ -12,7 +12,7 @@
                 	<center>
 		                <h2 style="color: #6E6E6E; font-weight: bold;">
 		                	Nossa História
-		                	<img src="/imagens/logo/G.png" width="90px" align="right" class="img-fluid" alt="Meclay - Serviços e Reparos">
+		                	<img src="{{ URL::asset('/imagens/logo/G.png') }}" width="90px" align="right" class="img-fluid" alt="Meclay - Serviços e Reparos">
 		                </h2>
 		            </center>
                 </div>
@@ -20,7 +20,7 @@
                 <div class="row" id="row">
 				  <div class="col-sm-6">
 				  	<br/>
-				  	<img src="/imagens/logo/D.jpg" class="img-fluid">
+				  	<img src="{{ URL::asset('/imagens/logo/D.jpg') }}" class="img-fluid">
 
 				  </div>
 				  <div class="col-sm-6">
