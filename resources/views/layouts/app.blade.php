@@ -152,7 +152,7 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
-                    <img src="/imagens/logo/C.jpg" title="Home" width="60px" id="imgServicos">
+                    <img src="{{ URL::asset('/imagens/logo/C.jpg') }}" title="Home" width="60px" id="imgServicos">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -170,13 +170,13 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link" id="linkMenuSuperior" href="/menu/nossaHistoria">Nossa História</a>
+                            <a class="nav-link" id="linkMenuSuperior" href="{{ url('/menu/nossaHistoria') }}">Nossa História</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="linkMenuSuperior" href="/menu/servicos">Serviços</a>
+                            <a class="nav-link" id="linkMenuSuperior" href="{{ url('/menu/servicos') }}">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="linkMenuSuperior" href="/menu/contato">Contato</a>
+                            <a class="nav-link" id="linkMenuSuperior" href="{{ url('/menu/contato') }}">Contato</a>
                         </li>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -187,7 +187,7 @@
                                 <a class="nav-link" id="linkMenuSuperior" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="linkMenuSuperior" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" id="linkMenuSuperior" href="{{ route('register') }}">{{ __('Cadastro') }}</a>
                             </li>
 
                         @else
@@ -231,16 +231,16 @@
                     <div class="col-sm">
                         <br/><br/>
 
-                        <img src="/imagens/logo/C.jpg" width="153px" id="imgRodape" class="img-fluid" alt="Meclay - Serviços e Reparos">
+                        <img src="{{ URL::asset('/imagens/logo/C.jpg') }}" width="153px" id="imgRodape" class="img-fluid" alt="Meclay - Serviços e Reparos">
                         
                     </div>
                     <div class="col-sm">
                         <br/><br/>
                         <p>
-                            A empresa Meclay - Serviços e Reparos foi fundada no ano de (1998) na cidade de São Gonçalo pelo Senhor Cleyton Dos Anjos Queiroz e sua principal missão é oferecer soluções rapidas com qualidade.
+                            A empresa Meclay - Serviços e Reparos foi fundada no ano de (2014) na cidade de São Gonçalo e sua principal missão é oferecer soluções rapidas com qualidade.
                             <br/><br/>
                             <b>Email</b>: meclay.contato@hotmail.com <br/>
-                            <b>Telefones</b>: (21) 9 91444947 / (21) 85035965
+                            <b>Telefones</b>: (21)9 99144-4947
                         </p>
                     </div>
                     <div class="col-sm">
@@ -256,15 +256,15 @@
                         </div>
                                                     
                         <a href="">
-                            <img src="/imagens/redeSociais/zap.png" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+                            <img src="{{ URL::asset('/imagens/redeSociais/zap.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
                         </a>
                         &nbsp;&nbsp;
                         <a href="">
-                            <img src="/imagens/redeSociais/face.png" width="35px" id="faceRodape" class="img-fluid" alt="Meclay - Serviços e Reparos">
+                            <img src="{{ URL::asset('/imagens/redeSociais/face.png') }}" width="35px" id="faceRodape" class="img-fluid" alt="Meclay - Serviços e Reparos">
                         </a>
                         &nbsp;&nbsp;
                         <a href="">
-                            <img src="/imagens/redeSociais/twitter.png" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos"></a>
+                            <img src="{{ URL::asset('/imagens/redeSociais/twitter.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos"></a>
                         </b>
                     </div>
               </div>
@@ -276,7 +276,7 @@
     <div class="desenvolvedorRodape">
         <br/><br/>
         <center>
-            <p>Copyright © 2018 . All Rights Reserved | Meclay - Serviços e Reparos | Desenvolvedor by Fillipe Anjos - Zap 98208-0673</p>
+            <p>Copyright © 2020 . All Rights Reserved | Meclay - Serviços e Reparos | Desenvolvedor by Fillipe Anjos - Zap 96684-6099</p>
         </center>
         <br/> 
 
