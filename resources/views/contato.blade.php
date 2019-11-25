@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<img src="/imagens/imagemContato.jpg" class="imgAbaixoMenu">
+<img src="{{ URL::asset('/imagens/imagemContato.jpg') }}" class="imgAbaixoMenu">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
@@ -13,35 +13,35 @@
                 	<center>
 		                <h2 style="color: #6E6E6E; font-weight: bold;">
 		                	Contato
-		                	<img src="/imagens/logo/G.png" width="90px" align="right" class="img-fluid" alt="Meclay - Serviços e Reparos">
+		                	<img src="{{ URL::asset('/imagens/logo/G.png') }}" width="90px" align="right" class="img-fluid" alt="Meclay - Serviços e Reparos">
 		                </h2>
 		            </center>
                 </div>
 
                 <div class="row" id="row">
 				  <div class="col-sm-4">
-				  	<img src="/imagens/logo/D.jpg" class="img-fluid" alt="Meclay - Serviços e Reparos">
+				  	<img src="{{ URL::asset('/imagens/logo/D.jpg') }}" class="img-fluid" alt="Meclay - Serviços e Reparos">
 				  	<br/><br/>
 				  	<!--<h5>Meclay - Serviços e Reparos</h5>-->
-				  	<h5 class="textoContato"><b><img src="/imagens/icon/trowel.png" width="25px" class="img-fluid" alt="Meclay - Serviços e Reparos">&nbsp;Meclay - Serviços e Reparos</b></h5>
+				  	<h5 class="textoContato"><b><img src="{{ URL::asset('/imagens/icon/trowel.png') }}" width="25px" class="img-fluid" alt="Meclay - Serviços e Reparos">&nbsp;Meclay - Serviços e Reparos</b></h5>
 					<p class="textoContato">
 						<b>	
-						<img src="/imagens/icon/email.png" width="19px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+						<img src="{{ URL::asset('/imagens/icon/email.png') }}" width="19px" class="img-fluid" alt="Meclay - Serviços e Reparos">
 						&nbsp;contatos.meclay@hotmail.com
 						<br/>
-						<img src="/imagens/icon/phone.png" width="17px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+						<img src="{{ URL::asset('/imagens/icon/phone.png') }}" width="17px" class="img-fluid" alt="Meclay - Serviços e Reparos">
 						&nbsp;&nbsp;Cel: (21)9 99144-4947
 						<br/><br/>
 						<a href="">
-							<img src="/imagens/redeSociais/zap.png" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+							<img src="{{ URL::asset('/imagens/redeSociais/zap.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
 						</a>
 						&nbsp;&nbsp;
 						<a href="">
-							<img src="/imagens/redeSociais/face.png" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+							<img src="{{ URL::asset('/imagens/redeSociais/face.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
 						</a>
 						&nbsp;&nbsp;
 						<a href="">
-							<img src="/imagens/redeSociais/twitter.png" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos"></a>
+							<img src="{{ URL::asset('/imagens/redeSociais/twitter.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos"></a>
 						</b>
 					</p>
 
@@ -82,6 +82,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> 
 
 @endsection

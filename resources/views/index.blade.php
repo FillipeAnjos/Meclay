@@ -4,7 +4,8 @@
 
 <div class="tudoIndex">
 
-	<img src="/imagens/imgIndex.png" class="img-fluid" id="imgIndex">
+	<!-- Atualizar exemplo -->
+	<img src="{{ URL::asset('/imagens/imgIndex.png') }}" class="img-fluid" id="imgIndex">
 	<p id="textoIndex">
 		<div class="container">
 		  	<div class="row">
@@ -28,7 +29,7 @@
 						qualidade e economia.
 					</p>
 					
-					<a href="/menu/servicos" class="btn btn-warning"><strong>Veja Nossos Serviços</strong></a>	
+					<a href="{{ url('/menu/servicos') }}" class="btn btn-warning"><strong>Veja Nossos Serviços</strong></a>	
 		      		
 		    	</div>
 		    	<div class="col-md-5">
@@ -37,7 +38,7 @@
 					<div class="orcamentoRapido">
 						<center>
 							<h3 style="color: yellow">
-								<img src="/imagens/icon/cifrao.png" style="margin-top: -7px;">
+								<img src="{{ URL::asset('/imagens/icon/cifrao.png') }}" style="margin-top: -7px;">
 								Orçamento Rápido
 							</h3>
 							
@@ -65,6 +66,6 @@
 		</div>
 	</p>
 
-</div>
+</div> 
 
 @endsection
