@@ -5,6 +5,7 @@
 <div class="tudoIndex">
 
 	<!-- Atualizar exemploooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo --> 
+	
 	<img src="{{ URL::asset('/imagens/imgIndex.png') }}" class="img-fluid" id="imgIndex">
 	<p id="textoIndex">
 		<div class="container">
