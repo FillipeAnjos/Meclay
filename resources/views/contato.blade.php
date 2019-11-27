@@ -32,16 +32,17 @@
 						<img src="{{ URL::asset('/imagens/icon/phone.png') }}" width="17px" class="img-fluid" alt="Meclay - Serviços e Reparos">
 						&nbsp;&nbsp;Cel: (21)9 99144-4947
 						<br/><br/>
-						<a href="">
-							<img src="{{ URL::asset('/imagens/redeSociais/zap.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
-						</a>
-						&nbsp;&nbsp;
-						<a href="">
-							<img src="{{ URL::asset('/imagens/redeSociais/face.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
-						</a>
-						&nbsp;&nbsp;
-						<a href="">
-							<img src="{{ URL::asset('/imagens/redeSociais/twitter.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos"></a>
+						<a href="https://api.whatsapp.com/send?phone=5521991444947&text=Solicite%20seu%20Or%C3%A7amento%20Gr%C3%A1tis%20" title="Whatsapp Meclay" target="_blank">
+                            <img src="{{ URL::asset('/imagens/redeSociais/zap.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.facebook.com/pg/Meclay.Reformas/services/" title="Facebook Meclay" target="_blank">
+                            <img src="{{ URL::asset('/imagens/redeSociais/face.png') }}" width="35px" id="faceRodape" class="img-fluid" alt="Meclay - Serviços e Reparos">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.instagram.com/invites/contact/?i=1ixn8o2slml2e&utm_content=3xqzdsz" title="Instagram Meclay" target="_blank">
+                            <img src="{{ URL::asset('/imagens/redeSociais/instagram.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+                        </a>
 						</b>
 					</p>
 

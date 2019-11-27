@@ -127,8 +127,10 @@
         }
 
         #faceRodape{
-            background-color: white;
-            border-radius: 50px;
+            /*
+                background-color: white;
+                border-radius: 50px;
+            */
         }
 
         #textoSigaNosRodape{
@@ -239,7 +241,7 @@
                         <p>
                             A empresa Meclay - Serviços e Reparos foi fundada no ano de (2014) na cidade de São Gonçalo e sua principal missão é oferecer soluções rapidas com qualidade.
                             <br/><br/>
-                            <b>Email</b>: meclay.contato@hotmail.com <br/>
+                            <b>Email</b>: contatos.meclay@hotmail.com <br/>
                             <b>Telefones</b>: (21)9 99144-4947
                         </p>
                     </div>
@@ -255,16 +257,18 @@
                             </p>
                         </div>
                                                     
-                        <a href="">
+
+                        <a href="https://api.whatsapp.com/send?phone=5521991444947&text=Solicite%20seu%20Or%C3%A7amento%20Gr%C3%A1tis%20" title="Whatsapp Meclay" target="_blank">
                             <img src="{{ URL::asset('/imagens/redeSociais/zap.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
                         </a>
                         &nbsp;&nbsp;
-                        <a href="">
+                        <a href="https://www.facebook.com/pg/Meclay.Reformas/services/" title="Facebook Meclay" target="_blank">
                             <img src="{{ URL::asset('/imagens/redeSociais/face.png') }}" width="35px" id="faceRodape" class="img-fluid" alt="Meclay - Serviços e Reparos">
                         </a>
                         &nbsp;&nbsp;
-                        <a href="">
-                            <img src="{{ URL::asset('/imagens/redeSociais/twitter.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos"></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=1ixn8o2slml2e&utm_content=3xqzdsz" title="Instagram Meclay" target="_blank">
+                            <img src="{{ URL::asset('/imagens/redeSociais/instagram.png') }}" width="35px" class="img-fluid" alt="Meclay - Serviços e Reparos">
+                        </a>
                         </b>
                     </div>
               </div>
