@@ -1,13 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
+<img src="{{ URL::asset('/imagens/imagemContato.jpg') }}" class="imgAbaixoMenu">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <br/>
+            <br/><br/>
                 <center>
                     <img src="{{ URL::asset('/imagens/logo/K.jpg') }}" width="180px" class="img-fluid" alt="Meclay - Serviços e Reparos">
                 </center>
+            <br/>
             <h1> </h1>
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
@@ -73,5 +75,5 @@
         </div>
     </div>
 </div>
-<br/> 
+<br/><br/>
 @endsection
