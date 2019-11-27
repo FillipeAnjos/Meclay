@@ -96,7 +96,7 @@
         #imgIndex{
             position: absolute;
             width: 100%;
-            height: 700px;
+            height: 100%;
         }
 
         #textoIndex{
@@ -223,7 +223,7 @@
         </main>
         <!-- Aqui entra o rodapé -->
 
-        @if(!isset($rodape))<!-- Para não aparecer o Roda Pé -->
+        @if(!isset($rodape))<!-- Para não aparecer o Roda Pé na index.blade.php -->
         <div class="rodape">
 
             <div class="container">

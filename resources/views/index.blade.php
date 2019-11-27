@@ -4,7 +4,7 @@
 
 <div class="tudoIndex">
 
-	<!-- Atualizar exemplo --> 
+	<!-- Atualizar exemplo -->
 	<img src="{{ URL::asset('/imagens/imgIndex.png') }}" class="img-fluid" id="imgIndex">
 	<p id="textoIndex">
 		<div class="container">
@@ -66,6 +66,8 @@
 		</div>
 	</p>
 
+	<br/><br/><br/><br/><br/><br/>
+	
 </div> 
 
 @endsection
