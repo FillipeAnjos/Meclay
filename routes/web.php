@@ -27,6 +27,7 @@ Route::group(['prefix' => 'menu'], function (){
      Route::get('contato', ['uses' => 'TrocaPageController@contato']);
      Route::get('servicos', ['uses' => 'TrocaPageController@servicos']);
      Route::get('nossaHistoria', ['uses' => 'TrocaPageController@nossaHistoria']);
+     Route::get('filiado', ['uses' => 'TrocaPageController@filiado']);
                        
 });
 

@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="{{ asset('imagens/faviconMeclay.jpg')}}" />
+
     <!-- Chat -->
     <script src="//code.jivosite.com/widget.js" data-jv-id="DBA23fXxgw" async></script>
     
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Meclay - Serviços e Reparos</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -179,6 +182,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="linkMenuSuperior" href="{{ url('/menu/contato') }}">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkMenuSuperior" href="{{ url('/menu/filiado') }}">Seja-Filiado</a>
                         </li>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 

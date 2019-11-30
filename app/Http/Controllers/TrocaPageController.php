@@ -21,6 +21,10 @@ class TrocaPageController extends Controller
 
    	public function nossaHistoria(){
    		return view('nossaHistoria');
-   	}
+	}
+	   
+	public function filiado(){
+		return view('filiado');
+	}
 
 }
