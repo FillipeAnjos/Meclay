@@ -225,6 +225,38 @@
             </div>
         </nav>
 
+        <?php 
+            /* ********************************************************************************* */
+            /* ************************* Parte de mensagens e Alert's ************************** */
+            /* ********************************************************************************* */
+        ?>
+
+            @if(Session::has('or_cadastrado_sucesso'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    {{ Session::get('or_cadastrado_sucesso') }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                {{ Session::flush('or_cadastrado_sucesso') }}<!-- Excluindo a session -->
+            @endif
+
+            @if(Session::has('or_cadastrado_erro'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    {{ Session::get('or_cadastrado_erro') }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                {{ Session::flush('or_cadastrado_erro') }}<!-- Excluindo a session -->
+            @endif
+        
+        <?php 
+            /* ********************************************************************************* */
+            /* ********************************************************************************* */
+            /* ********************************************************************************* */
+        ?>
+
         <!--<main class="py-4">-->
         <main class="py-0">
             @yield('content')
