@@ -15,8 +15,10 @@
                 <div class="card-header">{{ __('Cadastro') }}</div>
 
                 <div class="card-body">
-                    <!--<form method="POST" action="{{ route('register') }}" aria-label="{{ __('Register') }}">-->
+                    <form method="POST" action="{{ route('register') }}" aria-label="{{ __('Register') }}">
                         @csrf
+
+                        <input type="hidden" name="perfil" value="3">
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nome') }}</label>
@@ -75,7 +77,7 @@
                                 </button>
                             </div>
                         </div>
-                    <!--</form>-->
+                    </form>
                 </div>
             </div>
         </div>
