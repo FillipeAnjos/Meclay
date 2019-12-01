@@ -43,21 +43,25 @@
 							</h3>
 							
 						</center>
-						<form action="show" method="POST">
+						<form action="{{ url('/orcamentoRapido') }}" method="POST">
+							
+							<!-- csrf abaixo responsavel por requisição POST -->
+							@csrf
+							
 							<div class="form-group">
 								<span style="color: yellow">Nome completo<span>
-								<input type="text" class="form-control" placeholder="Nome Completo" required="required">
+								<input type="text" class="form-control" placeholder="Nome Completo" name="nomeOR" required="required">
 							</div>
 							<div class="form-group">
 								<span style="color: yellow">E-mail<span>
-								<input type="email" class="form-control" placeholder="E-mail" required="required">
+								<input type="email" class="form-control" placeholder="E-mail" name="emailOR" required="required">
 							</div>
 							<div class="form-group">
 								<span style="color: yellow">Descreva os serviços</span>
-								<textarea class="form-control" rows="3" placeholder="Descreva os serviços desejados!" required="required"></textarea>
+								<textarea class="form-control" rows="3" placeholder="Descreva os serviços desejados!" name="orcamentoOR" required="required"></textarea>
 							</div>
 							<center>
-								<input type="submit" name="Enviar" value="Enviar" class="btn btn-warning btn-sm btn-block" style="font-weight: bold;">
+								<input type="submit" name="Enviar" value="Enviar Orçamento" class="btn btn-warning btn-sm btn-block" style="font-weight: bold;">
 							</center>
 						</form>
 					</div>

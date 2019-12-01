@@ -21,7 +21,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
 /* Rotas responsaveis pelas rotas do menu superior */
 Route::group(['prefix' => 'menu'], function (){
      Route::get('contato', ['uses' => 'TrocaPageController@contato']);
@@ -31,6 +30,7 @@ Route::group(['prefix' => 'menu'], function (){
                        
 });
 
+Route::post('/orcamentoRapido', 'OrcamentoRapidoController@orcamentoRapido')->name('orcamentoRapido');
 
 
 
