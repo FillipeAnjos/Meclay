@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class OrcamentoRapido extends Migration
+class Users extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class OrcamentoRapido extends Migration
      */
     public function up()
     {
-        Schema::create('orcamento_rapido', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nome', 100);
-            $table->string('email', 100);
-            $table->longText('orcamento');
+            $table->integer('perfil');
+            $table->string('name', 100);
+            $table->string('email', 100)->unique();
+            $table->string('password');
+            $table->rememberToken();
             $table->timestamps();
         });
     }
@@ -29,6 +31,6 @@ class OrcamentoRapido extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('orcamento_rapido');
+        Schema::dropIfExists('users');
     }
 }
